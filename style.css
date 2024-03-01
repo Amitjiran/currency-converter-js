@@ -1,0 +1,114 @@
+.container{
+
+   display: flex;
+    border: 10px solid rgb(232, 11, 11);
+    height: 70vh;
+    width: 50vh;
+    /* padding: 10px; */
+    border-radius: 50px;
+    background-color: rgb(186, 160, 182);
+     
+}
+
+body{
+    background-color: rgb(193, 201, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+/* form{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+#textbox{
+
+    padding: 10px;
+    border-radius: 30px; 
+
+}
+
+#conversion {
+
+   
+}
+
+#fromto{
+    display: flex;
+    
+
+}
+
+
+.select-container img {
+    max-width: 3rem;
+    max-height: 3rem;
+  }
+  
+  .select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+  }
+
+  .dropdown{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    
+    
+  }
+
+
+  .from{
+    margin-right: 2rem;
+    margin-left: 1px;
+    
+  }
+
+  .to{
+    margin-left: 10px;
+    margin-right: 4rem;
+  }
+
+  .msg{
+    margin-top: 50px;
+    margin-left: 1rem;
+  }
+
+  button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    background-color: rgb(136, 82, 218);
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    margin-right: 20px;
+    color:white ;
+
+  }
+
+  form {
+    margin: 2rem 0 1rem 0;
+  }
+  #heading{
+
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(0, 17, 255);
+
+  }
